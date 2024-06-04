@@ -46,7 +46,7 @@ export function App() {
   function handleRemoveTask(id: number) {
     const filteredTasks = tasks.filter((task) => task.id !== id)
 
-    if (!confirm('Deseja mesmo apagar essa tarefa?')) {
+    if (!confirm('Do you really want to delete this task?')) {
       return
     }
 
@@ -76,7 +76,7 @@ export function App() {
             value={inputValue}
           />
           <Button onClick={handleAddTask}>
-            Criar
+            Create
             <PlusCircle size={16} color="#f2f2f2" weight="bold" />
           </Button>
         </div>

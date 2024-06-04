@@ -9,7 +9,7 @@ export function Input({
   return (
     <input
       className={styles.container}
-      placeholder="Adicione uma nova tarefa"
+      placeholder="Add a new task"
       {...rest}
     />
   )

@@ -5,8 +5,8 @@ export function Empty() {
     <div className={styles.container}>
       <img src="/clipboard.png" alt="ícone de prancheta" />
       <p>
-        <strong>Você ainda não tem tarefas cadastradas</strong>
-        Crie tarefas e organize seus itens a fazer
+        <strong>You don't have any tasks yet</strong>
+        Create tasks and organize your to-do items
       </p>
     </div>
   )

@@ -9,12 +9,12 @@ export function Header({ tasksCounter, checkedTasksCounter }: Props) {
   return (
     <header className={styles.container}>
       <aside>
-        <p>Tarefas criadas</p>
+        <p>Created tasks</p>
         <span>{tasksCounter}</span>
       </aside>
 
       <aside>
-        <p>Concluídas</p>
+        <p>Concluded</p>
         <span>
           {tasksCounter === 0
             ? tasksCounter
